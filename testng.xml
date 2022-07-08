@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Extent_Report_Suite">
+	<test thread-count="5" name="Extent_Test">
+		<classes>
+			<class name="testCases.LoginTC" />
+			<class name="testCases.DropDownRadioButtonCheckBoxTC" />
+		</classes>
+	</test> <!-- Extent_Test -->
+</suite> <!-- Extent_Report_Suite -->

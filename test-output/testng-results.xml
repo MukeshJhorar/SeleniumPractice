@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-28T08:10:18 IST" name="Extent_Report_Suite" finished-at="2022-06-28T08:11:07 IST" duration-ms="48937">
+    <groups>
+    </groups>
+    <test started-at="2022-06-28T08:10:18 IST" name="Extent_Test" finished-at="2022-06-28T08:11:07 IST" duration-ms="48937">
+      <class name="testCases.LoginTC">
+        <test-method is-config="true" signature="preRun()[pri:0, instance:testCases.LoginTC@4d465b11]" started-at="2022-06-28T08:10:16 IST" name="preRun" finished-at="2022-06-28T08:10:18 IST" duration-ms="2765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRun -->
+        <test-method signature="login()[pri:0, instance:testCases.LoginTC@4d465b11]" started-at="2022-06-28T08:10:18 IST" name="login" finished-at="2022-06-28T08:10:36 IST" duration-ms="17423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:1, instance:testCases.LoginTC@4d465b11]" started-at="2022-06-28T08:10:36 IST" name="logout" finished-at="2022-06-28T08:10:38 IST" depends-on-methods="testCases.LoginTC.login" duration-ms="2327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="popupHandle()[pri:2, instance:testCases.LoginTC@4d465b11]" started-at="2022-06-28T08:10:38 IST" name="popupHandle" finished-at="2022-06-28T08:10:50 IST" depends-on-methods="testCases.LoginTC.logout" duration-ms="11794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popupHandle -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testCases.LoginTC@4d465b11]" started-at="2022-06-28T08:11:07 IST" name="quitBrowser" finished-at="2022-06-28T08:11:09 IST" duration-ms="1980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testCases.LoginTC -->
+      <class name="testCases.DropDownRadioButtonCheckBoxTC">
+        <test-method signature="handleDropDown()[pri:0, instance:testCases.DropDownRadioButtonCheckBoxTC@28f2a10f]" started-at="2022-06-28T08:10:50 IST" name="handleDropDown" finished-at="2022-06-28T08:11:06 IST" duration-ms="16282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleDropDown -->
+        <test-method signature="handleRadioButton()[pri:1, instance:testCases.DropDownRadioButtonCheckBoxTC@28f2a10f]" started-at="2022-06-28T08:11:06 IST" name="handleRadioButton" finished-at="2022-06-28T08:11:07 IST" depends-on-methods="testCases.DropDownRadioButtonCheckBoxTC.handleDropDown" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleRadioButton -->
+        <test-method signature="selectCheckBox()[pri:2, instance:testCases.DropDownRadioButtonCheckBoxTC@28f2a10f]" started-at="2022-06-28T08:11:07 IST" name="selectCheckBox" finished-at="2022-06-28T08:11:07 IST" depends-on-methods="testCases.DropDownRadioButtonCheckBoxTC.handleRadioButton" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCheckBox -->
+      </class> <!-- testCases.DropDownRadioButtonCheckBoxTC -->
+    </test> <!-- Extent_Test -->
+  </suite> <!-- Extent_Report_Suite -->
+</testng-results>
